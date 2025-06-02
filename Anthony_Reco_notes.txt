@@ -1,0 +1,57 @@
+
+*-----------------------------------------------------------------------------------------------------------
+** 5/30/25
+
+- List Cuts Used. 
+
+- List procedure to get eff plots
+
+- Other useful info
+
+
+
+
+** Cuts Applied and Useful Info ** :
+
+
+- |n_pi0| < 0.3
+- |n_phodec| < 1.1 
+- 0.5 < E_pi0 < 20 Gev
+
+- no x^2 or cluster cut applied
+
+- Fit function for pi0 masses: f(x) =  k* exp(m -x)^2/2*sig^2
+
+- m -> mass peak location 
+
+- sig -> width of distribution.
+
+Fit Range: 0.07 - 0.25 [GeV/c^2] 
+
+- Use cluster Node name with position correction maybe? 
+
+- Use anthony's delR plot per E_reco or E_truth to make useful delR cuts (Reco part 2 slides)
+
+- Pick an Emin curve for eff plots.  
+
+- Assumetry as function of E_truth is flat (tells us what effects assymetry cuts have) 
+
+- but can have pseudo assymetry cuts by using Emin relation like: pseudo_asym =  abs( ((E_pioRecobin - Emin) - Emin)/E_pioRecobin)
+
+- convert E_reco variable via pt later on. 
+
+- Useful info on pi0 Reco in Raw Sim slides: 
+
+Simulation and Reconstruction
+• SimpleEventGenerator(111) at (phi, eta) = 0,0 → minimal response variation
+from detector
+• 0.5 < pt_pio < 8 Gev/c", flat spectrum
+• Analysis: 1.5 < pt_pi0 < 7.5 Gev/c"
+• Reco: pair “leading” clusters (E > 1GeV) with “subleading” clusters
+(E > 0.5GeV) combinatorially.
+• Also starting to look at runs with increasingly high minimum energy cuts to mitigate
+more substantial backgrounds in PYTHIA and PYTHIA+HIJING
+• No asymmetry cut on initial plots, will show results of requiring asym < 0.4, 0.8
+• Position-dependent cluster energy correction not applied till Slide 18
+
+----------------------------------------------------------------------------------------------------------------------------
