@@ -1,0 +1,574 @@
+root [1] .q
+-bash sphnxuser07 gen $rt -x Fun4All_RunPi0Efficiency.C 
+root [0] 
+Processing Fun4All_RunPi0Efficiency.C...
+Adding file list dst_calo_cluster.list
+Adding file list g4hits.list
+Fun4AllServer::setRun(): run 24 uses CDB TIMESTAMP 24
+CaloCalibEmc_eta::Init(PHCompositeNode *topNode) Initializing
+--------------------------------------
+
+List of Nodes in Fun4AllServer:
+Node Tree under TopNode TOP
+TOP (PHCompositeNode)/
+   DST (PHCompositeNode)/
+      Sync (IO,SyncObjectv1)
+      EventHeader (IO,EventHeaderv1)
+      CEMC (PHCompositeNode)/
+         WAVEFORM_CEMC (IO,TowerInfoContainerSimv2)
+         TOWERS_CEMC (IO,TowerInfoContainerv2)
+         TOWERINFO_CALIB_CEMC (IO,TowerInfoContainerv2)
+         CLUSTERINFO_CEMC (IO,RawClusterContainer)
+         G4HIT_CEMC (IO,PHG4HitContainer)
+      HCALIN (PHCompositeNode)/
+         WAVEFORM_HCALIN (IO,TowerInfoContainerSimv2)
+         TOWERS_HCALIN (IO,TowerInfoContainerSimv1)
+         TOWERINFO_CALIB_HCALIN (IO,TowerInfoContainerSimv1)
+         G4HIT_HCALIN (IO,PHG4HitContainer)
+      HCALOUT (PHCompositeNode)/
+         WAVEFORM_HCALOUT (IO,TowerInfoContainerSimv2)
+         TOWERS_HCALOUT (IO,TowerInfoContainerSimv1)
+         TOWERINFO_CALIB_HCALOUT (IO,TowerInfoContainerSimv1)
+         G4HIT_HCALOUT (IO,PHG4HitContainer)
+      MVTX (PHCompositeNode)/
+         G4HIT_MVTX (IO,PHG4HitContainer)
+      INTT (PHCompositeNode)/
+         G4HIT_INTT (IO,PHG4HitContainer)
+      TPC (PHCompositeNode)/
+         G4HIT_TPC (IO,PHG4HitContainer)
+      MICROMEGAS (PHCompositeNode)/
+         G4HIT_MICROMEGAS (IO,PHG4HitContainer)
+      BBC (PHCompositeNode)/
+         G4HIT_BBC (IO,PHG4HitContainer)
+      EPD (PHCompositeNode)/
+         G4HIT_EPD (IO,PHG4HitContainer)
+      G4HIT_BH_1 (IO,PHG4HitContainer)
+      G4TruthInfo (IO,PHG4TruthInfoContainer)
+   RUN (PHCompositeNode)/
+      RunHeader (IO,RunHeaderv1)
+      Flags (IO,FlagSavev1)
+      FIELD_CONFIG (IO,PHFieldConfigv1)
+      PIPE (PHCompositeNode)/
+         G4GEOPARAM_PIPE (IO,PdbParameterMapContainer)
+      MVTX (PHCompositeNode)/
+         G4GEOPARAM_MVTX (IO,PdbParameterMapContainer)
+      INTT (PHCompositeNode)/
+         G4GEOPARAM_INTT (IO,PdbParameterMapContainer)
+      TPC (PHCompositeNode)/
+         G4GEOPARAM_TPC (IO,PdbParameterMapContainer)
+      TPC_ENDCAP (PHCompositeNode)/
+         G4GEOPARAM_TPC_ENDCAP (IO,PdbParameterMapContainer)
+      MICROMEGAS (PHCompositeNode)/
+         G4GEOPARAM_MICROMEGAS (IO,PdbParameterMapContainer)
+      BBC (PHCompositeNode)/
+         G4GEOPARAM_BBC (IO,PdbParameterMapContainer)
+      CEMC_ELECTRONICS (PHCompositeNode)/
+         G4GEOPARAM_CEMC_ELECTRONICS (IO,PdbParameterMapContainer)
+      CEMC_SPT (PHCompositeNode)/
+         G4GEOPARAM_CEMC_SPT (IO,PdbParameterMapContainer)
+      CEMC (PHCompositeNode)/
+         G4GEOPARAM_CEMC (IO,PdbParameterMapContainer)
+         TOWERGEOM_CEMC (IO,RawTowerGeomContainer_Cylinderv1)
+      HCALIN (PHCompositeNode)/
+         G4GEOPARAM_HCALIN (IO,PdbParameterMapContainer)
+         TOWERGEOM_HCALIN (IO,RawTowerGeomContainer_Cylinderv1)
+      MAGNET (PHCompositeNode)/
+         G4GEOPARAM_MAGNET (IO,PdbParameterMapContainer)
+      HCALOUT (PHCompositeNode)/
+         G4GEOPARAM_HCALOUT (IO,PdbParameterMapContainer)
+         TOWERGEOM_HCALOUT (IO,RawTowerGeomContainer_Cylinderv1)
+      HCALIN_SPT (PHCompositeNode)/
+         G4GEOPARAM_HCALIN_SPT (IO,PdbParameterMapContainer)
+      EPD (PHCompositeNode)/
+         G4GEOPARAM_EPD (IO,PdbParameterMapContainer)
+      G4GEOPARAM_BH_1 (IO,PdbParameterMapContainer)
+      CYLINDERGEOM_BH_1 (IO,PHG4CylinderGeomContainer)
+      BH_FORWARD_PLUS (PHCompositeNode)/
+         G4GEOPARAM_BH_FORWARD_PLUS (IO,PdbParameterMapContainer)
+      BH_FORWARD_NEG (PHCompositeNode)/
+         G4GEOPARAM_BH_FORWARD_NEG (IO,PdbParameterMapContainer)
+      CYLINDERGEOM_MVTX (IO,PHG4CylinderGeomContainer)
+      CYLINDERGEOM_INTT (IO,PHG4CylinderGeomContainer)
+      CYLINDERCELLGEOM_SVTX (IO,PHG4TpcCylinderGeomContainer)
+      CYLINDERGEOM_MICROMEGAS_FULL (IO,PHG4CylinderGeomContainer)
+      CYLINDERGEOM_CEMC (IO,PHG4CylinderGeomContainer)
+      GEOMETRY_IO (IO,PHGeomIOTGeo)
+      CdbUrl (IO,CdbUrlSavev1)
+      CYLINDERCELLGEOM_CEMC (IO,PHG4CylinderCellGeomContainer)
+   PAR (PHCompositeNode)/
+
+
+
+Beginning of the event 0
+====================================
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+EROR - did not find GL1 packet node
+Error -- did not get minBiasInfo node.
+
+
+  *Running Over my module with minBias and GL1 packet not being used.*
+
+
+* W/o GL1 and MB and Cent INFO: 
+CalibEmc_eta::Init(PHCompositeNode *topNode) Initializing
+--------------------------------------
+
+List of Nodes in Fun4AllServer:
+Node Tree under TopNode TOP
+TOP (PHCompositeNode)/
+   DST (PHCompositeNode)/
+      Sync (IO,SyncObjectv1)
+      EventHeader (IO,EventHeaderv1)
+      CEMC (PHCompositeNode)/
+         WAVEFORM_CEMC (IO,TowerInfoContainerSimv2)
+         TOWERS_CEMC (IO,TowerInfoContainerv2)
+         TOWERINFO_CALIB_CEMC (IO,TowerInfoContainerv2)
+         CLUSTERINFO_CEMC (IO,RawClusterContainer)
+         G4HIT_CEMC (IO,PHG4HitContainer)
+      HCALIN (PHCompositeNode)/
+         WAVEFORM_HCALIN (IO,TowerInfoContainerSimv2)
+         TOWERS_HCALIN (IO,TowerInfoContainerSimv1)
+         TOWERINFO_CALIB_HCALIN (IO,TowerInfoContainerSimv1)
+         G4HIT_HCALIN (IO,PHG4HitContainer)
+      HCALOUT (PHCompositeNode)/
+         WAVEFORM_HCALOUT (IO,TowerInfoContainerSimv2)
+         TOWERS_HCALOUT (IO,TowerInfoContainerSimv1)
+         TOWERINFO_CALIB_HCALOUT (IO,TowerInfoContainerSimv1)
+         G4HIT_HCALOUT (IO,PHG4HitContainer)
+      MVTX (PHCompositeNode)/
+         G4HIT_MVTX (IO,PHG4HitContainer)
+      INTT (PHCompositeNode)/
+         G4HIT_INTT (IO,PHG4HitContainer)
+      TPC (PHCompositeNode)/
+         G4HIT_TPC (IO,PHG4HitContainer)
+      MICROMEGAS (PHCompositeNode)/
+         G4HIT_MICROMEGAS (IO,PHG4HitContainer)
+      BBC (PHCompositeNode)/
+         G4HIT_BBC (IO,PHG4HitContainer)
+      EPD (PHCompositeNode)/
+         G4HIT_EPD (IO,PHG4HitContainer)
+      G4HIT_BH_1 (IO,PHG4HitContainer)
+      G4TruthInfo (IO,PHG4TruthInfoContainer)
+   RUN (PHCompositeNode)/
+      RunHeader (IO,RunHeaderv1)
+      Flags (IO,FlagSavev1)
+      FIELD_CONFIG (IO,PHFieldConfigv1)
+      PIPE (PHCompositeNode)/
+         G4GEOPARAM_PIPE (IO,PdbParameterMapContainer)
+      MVTX (PHCompositeNode)/
+         G4GEOPARAM_MVTX (IO,PdbParameterMapContainer)
+      INTT (PHCompositeNode)/
+         G4GEOPARAM_INTT (IO,PdbParameterMapContainer)
+      TPC (PHCompositeNode)/
+         G4GEOPARAM_TPC (IO,PdbParameterMapContainer)
+      TPC_ENDCAP (PHCompositeNode)/
+         G4GEOPARAM_TPC_ENDCAP (IO,PdbParameterMapContainer)
+      MICROMEGAS (PHCompositeNode)/
+         G4GEOPARAM_MICROMEGAS (IO,PdbParameterMapContainer)
+      BBC (PHCompositeNode)/
+         G4GEOPARAM_BBC (IO,PdbParameterMapContainer)
+      CEMC_ELECTRONICS (PHCompositeNode)/
+         G4GEOPARAM_CEMC_ELECTRONICS (IO,PdbParameterMapContainer)
+      CEMC_SPT (PHCompositeNode)/
+         G4GEOPARAM_CEMC_SPT (IO,PdbParameterMapContainer)
+      CEMC (PHCompositeNode)/
+         G4GEOPARAM_CEMC (IO,PdbParameterMapContainer)
+         TOWERGEOM_CEMC (IO,RawTowerGeomContainer_Cylinderv1)
+      HCALIN (PHCompositeNode)/
+         G4GEOPARAM_HCALIN (IO,PdbParameterMapContainer)
+         TOWERGEOM_HCALIN (IO,RawTowerGeomContainer_Cylinderv1)
+      MAGNET (PHCompositeNode)/
+         G4GEOPARAM_MAGNET (IO,PdbParameterMapContainer)
+      HCALOUT (PHCompositeNode)/
+         G4GEOPARAM_HCALOUT (IO,PdbParameterMapContainer)
+         TOWERGEOM_HCALOUT (IO,RawTowerGeomContainer_Cylinderv1)
+      HCALIN_SPT (PHCompositeNode)/
+         G4GEOPARAM_HCALIN_SPT (IO,PdbParameterMapContainer)
+      EPD (PHCompositeNode)/
+         G4GEOPARAM_EPD (IO,PdbParameterMapContainer)
+      G4GEOPARAM_BH_1 (IO,PdbParameterMapContainer)
+      CYLINDERGEOM_BH_1 (IO,PHG4CylinderGeomContainer)
+      BH_FORWARD_PLUS (PHCompositeNode)/
+         G4GEOPARAM_BH_FORWARD_PLUS (IO,PdbParameterMapContainer)
+      BH_FORWARD_NEG (PHCompositeNode)/
+         G4GEOPARAM_BH_FORWARD_NEG (IO,PdbParameterMapContainer)
+      CYLINDERGEOM_MVTX (IO,PHG4CylinderGeomContainer)
+      CYLINDERGEOM_INTT (IO,PHG4CylinderGeomContainer)
+      CYLINDERCELLGEOM_SVTX (IO,PHG4TpcCylinderGeomContainer)
+      CYLINDERGEOM_MICROMEGAS_FULL (IO,PHG4CylinderGeomContainer)
+      CYLINDERGEOM_CEMC (IO,PHG4CylinderGeomContainer)
+      GEOMETRY_IO (IO,PHGeomIOTGeo)
+      CdbUrl (IO,CdbUrlSavev1)
+      CYLINDERCELLGEOM_CEMC (IO,PHG4CylinderCellGeomContainer)
+   PAR (PHCompositeNode)/
+
+
+
+Beginning of the event 0
+====================================
+
+Beginning of the event 500
+====================================
+
+Beginning of the event 1000
+Notes: 
+
+* Most Node names can be ran through the gun, except MB, GL1, Centrality, Z_vertex. 
+* 5/26/25 
+
+**------------------------------------------------------------------------------------------------------------**
+
+* 5/27/25: 
+
+- Goals For Gun runthrough:  
+1. MB, GLI and Centrality Run Through 
+
+2. Z_vertex Lines 
+
+3. Run It Through 10,000 events/Loop 
+
+- Hijing FileLookup 
+
+- Hijining Runs Goals: 
+1. Match Nodes names and write them here
+----------------------------------------------------------------------------------------------------------------**
+                                          5/27/25 Notes: 
+
+   ** Gun Tasks ** 
+
+* Gun Run Task #1: 
+
+- Basically All Node names associated from Run  24 can be associated with calocluster and g4hits on gun files with exception to MB, GL1, anand centrality, also Globalvertexmap. (Clusters: RawClusterContainer; clusterinfo_Cemc) 
+
+* Gun Run Task #2: 
+
+- No GloabalVertexMap but z-vertex is access through G4truthinfo. (Already in my source-setup) 
+
+* Gun Run Task# 3: 
+
+- It was empty running through Loop but that could be effects of only testing for low statistics.  (Fun4all empty too but can investigate later) 
+
+
+
+** Hijing Tasks ** 
+
+--------------------------------------------------------------------------------------------------------------------------------------**
+                                              5/30 Notes: 
+
+
+
+** Hijing Tasks ** 
+
+- Createfilelist command: CreateFileList.pl -type 4 -run 14 -nopileup DST_CALO_CLUSTER G4Hits
+
+
+- Fun4all Run for Hijing: 
+
+* Node Tree Info Hijing: 
+
+-bash sphnxuser07 gen $rt -x Fun4All_RunPi0Efficiency.C 
+root [0] 
+Processing Fun4All_RunPi0Efficiency.C...
+Adding file list dst_calo_cluster.list
+Adding file list g4hits.list
+Fun4AllServer::setRun(): run 14 uses CDB TIMESTAMP 14
+CaloCalibEmc_eta::Init(PHCompositeNode *topNode) Initializing
+--------------------------------------
+
+List of Nodes in Fun4AllServer:
+Node Tree under TopNode TOP
+TOP (PHCompositeNode)/
+   DST (PHCompositeNode)/
+      Sync (IO,SyncObjectv1)
+      EventHeader (IO,EventHeaderv1)
+      CEMC (PHCompositeNode)/
+         TOWER_SIM_CEMC (IO,RawTowerContainer)
+         TOWERINFO_SIM_CEMC (IO,TowerInfoContainerv1)
+         TOWER_RAW_CEMC (IO,RawTowerContainer)
+         TOWERINFO_RAW_CEMC (IO,TowerInfoContainerv1)
+         TOWER_CALIB_CEMC (IO,RawTowerContainer)
+         TOWERINFO_CALIB_CEMC (IO,TowerInfoContainerv2)
+         CLUSTER_CEMC (IO,RawClusterContainer)
+         CLUSTER_POS_COR_CEMC (IO,RawClusterContainer)
+         G4HIT_CEMC (IO,PHG4HitContainer)
+      HCALIN (PHCompositeNode)/
+         TOWER_SIM_HCALIN (IO,RawTowerContainer)
+         TOWERINFO_SIM_HCALIN (IO,TowerInfoContainerv1)
+         TOWER_RAW_HCALIN (IO,RawTowerContainer)
+         TOWERINFO_RAW_HCALIN (IO,TowerInfoContainerv1)
+         TOWER_CALIB_HCALIN (IO,RawTowerContainer)
+         TOWERINFO_CALIB_HCALIN (IO,TowerInfoContainerv2)
+         CLUSTER_HCALIN (IO,RawClusterContainer)
+         G4HIT_HCALIN (IO,PHG4HitContainer)
+      HCALOUT (PHCompositeNode)/
+         TOWER_SIM_HCALOUT (IO,RawTowerContainer)
+         TOWERINFO_SIM_HCALOUT (IO,TowerInfoContainerv1)
+         TOWER_RAW_HCALOUT (IO,RawTowerContainer)
+         TOWERINFO_RAW_HCALOUT (IO,TowerInfoContainerv1)
+         TOWER_CALIB_HCALOUT (IO,RawTowerContainer)
+         TOWERINFO_CALIB_HCALOUT (IO,TowerInfoContainerv2)
+         CLUSTER_HCALOUT (IO,RawClusterContainer)
+         G4HIT_HCALOUT (IO,PHG4HitContainer)
+      PHHepMCGenEventMap (IO,PHHepMCGenEventMap)
+      MVTX (PHCompositeNode)/
+         G4HIT_MVTX (IO,PHG4HitContainer)
+      INTT (PHCompositeNode)/
+         G4HIT_INTT (IO,PHG4HitContainer)
+      TPC (PHCompositeNode)/
+         G4HIT_TPC (IO,PHG4HitContainer)
+      MICROMEGAS (PHCompositeNode)/
+         G4HIT_MICROMEGAS (IO,PHG4HitContainer)
+      BBC (PHCompositeNode)/
+         G4HIT_BBC (IO,PHG4HitContainer)
+      EPD (PHCompositeNode)/
+         G4HIT_EPD (IO,PHG4HitContainer)
+      G4HIT_BH_1 (IO,PHG4HitContainer)
+      G4TruthInfo (IO,PHG4TruthInfoContainer)
+   RUN (PHCompositeNode)/
+      RunHeader (IO,RunHeaderv1)
+      Flags (IO,FlagSavev1)
+      FIELD_CONFIG (IO,PHFieldConfigv1)
+      PIPE (PHCompositeNode)/
+         G4GEOPARAM_PIPE (IO,PdbParameterMapContainer)
+      MVTX (PHCompositeNode)/
+         G4GEOPARAM_MVTX (IO,PdbParameterMapContainer)
+      INTT (PHCompositeNode)/
+         G4GEOPARAM_INTT (IO,PdbParameterMapContainer)
+      TPC (PHCompositeNode)/
+         G4GEOPARAM_TPC (IO,PdbParameterMapContainer)
+      TPC_ENDCAP (PHCompositeNode)/
+         G4GEOPARAM_TPC_ENDCAP (IO,PdbParameterMapContainer)
+      MICROMEGAS (PHCompositeNode)/
+         G4GEOPARAM_MICROMEGAS (IO,PdbParameterMapContainer)
+      BBC (PHCompositeNode)/
+         G4GEOPARAM_BBC (IO,PdbParameterMapContainer)
+      CEMC_ELECTRONICS (PHCompositeNode)/
+         G4GEOPARAM_CEMC_ELECTRONICS (IO,PdbParameterMapContainer)
+      CEMC_SPT (PHCompositeNode)/
+         G4GEOPARAM_CEMC_SPT (IO,PdbParameterMapContainer)
+      CEMC (PHCompositeNode)/
+         G4GEOPARAM_CEMC (IO,PdbParameterMapContainer)
+         G4CELLPARAM_CEMC (IO,PdbParameterMap)
+         TOWERGEOM_CEMC (IO,RawTowerGeomContainer_Cylinderv1)
+      HCALIN (PHCompositeNode)/
+         G4GEOPARAM_HCALIN (IO,PdbParameterMapContainer)
+         G4CELLPARAM_HCALIN (IO,PdbParameterMap)
+         TOWERPARAM_HCALIN (IO,PdbParameterMap)
+         TOWERGEOM_HCALIN (IO,RawTowerGeomContainer_Cylinderv1)
+      MAGNET (PHCompositeNode)/
+         G4GEOPARAM_MAGNET (IO,PdbParameterMapContainer)
+      HCALOUT (PHCompositeNode)/
+         G4GEOPARAM_HCALOUT (IO,PdbParameterMapContainer)
+         G4CELLPARAM_HCALOUT (IO,PdbParameterMap)
+         TOWERPARAM_HCALOUT (IO,PdbParameterMap)
+         TOWERGEOM_HCALOUT (IO,RawTowerGeomContainer_Cylinderv1)
+      HCALIN_SPT (PHCompositeNode)/
+         G4GEOPARAM_HCALIN_SPT (IO,PdbParameterMapContainer)
+      FLUXRET_ETA_PLUS (PHCompositeNode)/
+         G4GEOPARAM_FLUXRET_ETA_PLUS (IO,PdbParameterMapContainer)
+      FLUXRET_ETA_MINUS (PHCompositeNode)/
+         G4GEOPARAM_FLUXRET_ETA_MINUS (IO,PdbParameterMapContainer)
+      EPD (PHCompositeNode)/
+         G4GEOPARAM_EPD (IO,PdbParameterMapContainer)
+      G4GEOPARAM_BH_1 (IO,PdbParameterMapContainer)
+      CYLINDERGEOM_BH_1 (IO,PHG4CylinderGeomContainer)
+      BH_FORWARD_PLUS (PHCompositeNode)/
+         G4GEOPARAM_BH_FORWARD_PLUS (IO,PdbParameterMapContainer)
+      BH_FORWARD_NEG (PHCompositeNode)/
+         G4GEOPARAM_BH_FORWARD_NEG (IO,PdbParameterMapContainer)
+      CYLINDERGEOM_MVTX (IO,PHG4CylinderGeomContainer)
+      CYLINDERGEOM_INTT (IO,PHG4CylinderGeomContainer)
+      CYLINDERCELLGEOM_SVTX (IO,PHG4TpcCylinderGeomContainer)
+      CYLINDERGEOM_MICROMEGAS_FULL (IO,PHG4CylinderGeomContainer)
+      CYLINDERGEOM_CEMC (IO,PHG4CylinderGeomContainer)
+      GEOMETRY_IO (IO,PHGeomIOTGeo)
+      CdbUrl (IO,CdbUrlSavev1)
+      CYLINDERCELLGEOM_CEMC (IO,PHG4CylinderCellGeomContainer)
+   PAR (PHCompositeNode)/
+
+
+
+Beginning of the event 0
+====================================
+../CaloCalibEmc_eta.cc:338: CLUSTERINFO_CEMC node is missing
+../CaloCalibEmc_eta.cc:338: CLUSTERINFO_CEMC node is missing
+../CaloCalibEmc_eta.cc:338: CLUSTERINFO_CEMC node is missing
+../CaloCalibEmc_eta.cc:338: CLUSTERINFO_CEMC node is missing
+../CaloCalibEmc_eta.cc:338: CLUSTERINFO_CEMC node is missing
+../CaloCalibEmc_eta.cc:338: CLUSTERINFO_CEMC node is missing
+../CaloCalibEmc_eta.cc:338: CLUSTERINFO_CEMC node is missing
+  
+
+* change RawClusterContainer to Cluster_Cemc
+
+Node Retry with CemC: 
+
+Processing Fun4All_RunPi0Efficiency.C...
+Adding file list dst_calo_cluster.list
+Adding file list g4hits.list
+Fun4AllServer::setRun(): run 14 uses CDB TIMESTAMP 14
+CaloCalibEmc_eta::Init(PHCompositeNode *topNode) Initializing
+--------------------------------------
+
+List of Nodes in Fun4AllServer:
+Node Tree under TopNode TOP
+TOP (PHCompositeNode)/
+   DST (PHCompositeNode)/
+      Sync (IO,SyncObjectv1)
+      EventHeader (IO,EventHeaderv1)
+      CEMC (PHCompositeNode)/
+         TOWER_SIM_CEMC (IO,RawTowerContainer)
+         TOWERINFO_SIM_CEMC (IO,TowerInfoContainerv1)
+         TOWER_RAW_CEMC (IO,RawTowerContainer)
+         TOWERINFO_RAW_CEMC (IO,TowerInfoContainerv1)
+         TOWER_CALIB_CEMC (IO,RawTowerContainer)
+         TOWERINFO_CALIB_CEMC (IO,TowerInfoContainerv2)
+         CLUSTER_CEMC (IO,RawClusterContainer)
+         CLUSTER_POS_COR_CEMC (IO,RawClusterContainer)
+         G4HIT_CEMC (IO,PHG4HitContainer)
+      HCALIN (PHCompositeNode)/
+         TOWER_SIM_HCALIN (IO,RawTowerContainer)
+         TOWERINFO_SIM_HCALIN (IO,TowerInfoContainerv1)
+         TOWER_RAW_HCALIN (IO,RawTowerContainer)
+         TOWERINFO_RAW_HCALIN (IO,TowerInfoContainerv1)
+         TOWER_CALIB_HCALIN (IO,RawTowerContainer)
+         TOWERINFO_CALIB_HCALIN (IO,TowerInfoContainerv2)
+         CLUSTER_HCALIN (IO,RawClusterContainer)
+         G4HIT_HCALIN (IO,PHG4HitContainer)
+      HCALOUT (PHCompositeNode)/
+         TOWER_SIM_HCALOUT (IO,RawTowerContainer)
+         TOWERINFO_SIM_HCALOUT (IO,TowerInfoContainerv1)
+         TOWER_RAW_HCALOUT (IO,RawTowerContainer)
+         TOWERINFO_RAW_HCALOUT (IO,TowerInfoContainerv1)
+         TOWER_CALIB_HCALOUT (IO,RawTowerContainer)
+         TOWERINFO_CALIB_HCALOUT (IO,TowerInfoContainerv2)
+         CLUSTER_HCALOUT (IO,RawClusterContainer)
+         G4HIT_HCALOUT (IO,PHG4HitContainer)
+      PHHepMCGenEventMap (IO,PHHepMCGenEventMap)
+      MVTX (PHCompositeNode)/
+         G4HIT_MVTX (IO,PHG4HitContainer)
+      INTT (PHCompositeNode)/
+         G4HIT_INTT (IO,PHG4HitContainer)
+      TPC (PHCompositeNode)/
+         G4HIT_TPC (IO,PHG4HitContainer)
+      MICROMEGAS (PHCompositeNode)/
+         G4HIT_MICROMEGAS (IO,PHG4HitContainer)
+      BBC (PHCompositeNode)/
+         G4HIT_BBC (IO,PHG4HitContainer)
+      EPD (PHCompositeNode)/
+         G4HIT_EPD (IO,PHG4HitContainer)
+      G4HIT_BH_1 (IO,PHG4HitContainer)
+      G4TruthInfo (IO,PHG4TruthInfoContainer)
+   RUN (PHCompositeNode)/
+      RunHeader (IO,RunHeaderv1)
+      Flags (IO,FlagSavev1)
+      FIELD_CONFIG (IO,PHFieldConfigv1)
+      PIPE (PHCompositeNode)/
+         G4GEOPARAM_PIPE (IO,PdbParameterMapContainer)
+      MVTX (PHCompositeNode)/
+         G4GEOPARAM_MVTX (IO,PdbParameterMapContainer)
+      INTT (PHCompositeNode)/
+         G4GEOPARAM_INTT (IO,PdbParameterMapContainer)
+      TPC (PHCompositeNode)/
+         G4GEOPARAM_TPC (IO,PdbParameterMapContainer)
+      TPC_ENDCAP (PHCompositeNode)/
+         G4GEOPARAM_TPC_ENDCAP (IO,PdbParameterMapContainer)
+      MICROMEGAS (PHCompositeNode)/
+         G4GEOPARAM_MICROMEGAS (IO,PdbParameterMapContainer)
+      BBC (PHCompositeNode)/
+         G4GEOPARAM_BBC (IO,PdbParameterMapContainer)
+      CEMC_ELECTRONICS (PHCompositeNode)/
+         G4GEOPARAM_CEMC_ELECTRONICS (IO,PdbParameterMapContainer)
+      CEMC_SPT (PHCompositeNode)/
+         G4GEOPARAM_CEMC_SPT (IO,PdbParameterMapContainer)
+      CEMC (PHCompositeNode)/
+         G4GEOPARAM_CEMC (IO,PdbParameterMapContainer)
+         G4CELLPARAM_CEMC (IO,PdbParameterMap)
+         TOWERGEOM_CEMC (IO,RawTowerGeomContainer_Cylinderv1)
+      HCALIN (PHCompositeNode)/
+         G4GEOPARAM_HCALIN (IO,PdbParameterMapContainer)
+         G4CELLPARAM_HCALIN (IO,PdbParameterMap)
+         TOWERPARAM_HCALIN (IO,PdbParameterMap)
+         TOWERGEOM_HCALIN (IO,RawTowerGeomContainer_Cylinderv1)
+      MAGNET (PHCompositeNode)/
+         G4GEOPARAM_MAGNET (IO,PdbParameterMapContainer)
+      HCALOUT (PHCompositeNode)/
+         G4GEOPARAM_HCALOUT (IO,PdbParameterMapContainer)
+         G4CELLPARAM_HCALOUT (IO,PdbParameterMap)
+         TOWERPARAM_HCALOUT (IO,PdbParameterMap)
+         TOWERGEOM_HCALOUT (IO,RawTowerGeomContainer_Cylinderv1)
+      HCALIN_SPT (PHCompositeNode)/
+         G4GEOPARAM_HCALIN_SPT (IO,PdbParameterMapContainer)
+      FLUXRET_ETA_PLUS (PHCompositeNode)/
+         G4GEOPARAM_FLUXRET_ETA_PLUS (IO,PdbParameterMapContainer)
+      FLUXRET_ETA_MINUS (PHCompositeNode)/
+         G4GEOPARAM_FLUXRET_ETA_MINUS (IO,PdbParameterMapContainer)
+      EPD (PHCompositeNode)/
+         G4GEOPARAM_EPD (IO,PdbParameterMapContainer)
+      G4GEOPARAM_BH_1 (IO,PdbParameterMapContainer)
+      CYLINDERGEOM_BH_1 (IO,PHG4CylinderGeomContainer)
+      BH_FORWARD_PLUS (PHCompositeNode)/
+         G4GEOPARAM_BH_FORWARD_PLUS (IO,PdbParameterMapContainer)
+      BH_FORWARD_NEG (PHCompositeNode)/
+         G4GEOPARAM_BH_FORWARD_NEG (IO,PdbParameterMapContainer)
+      CYLINDERGEOM_MVTX (IO,PHG4CylinderGeomContainer)
+      CYLINDERGEOM_INTT (IO,PHG4CylinderGeomContainer)
+      CYLINDERCELLGEOM_SVTX (IO,PHG4TpcCylinderGeomContainer)
+      CYLINDERGEOM_MICROMEGAS_FULL (IO,PHG4CylinderGeomContainer)
+      CYLINDERGEOM_CEMC (IO,PHG4CylinderGeomContainer)
+      GEOMETRY_IO (IO,PHGeomIOTGeo)
+      CdbUrl (IO,CdbUrlSavev1)
+      CYLINDERCELLGEOM_CEMC (IO,PHG4CylinderCellGeomContainer)
+   PAR (PHCompositeNode)/
+
+
+
+Beginning of the event 0
+====================================
+
+Beginning of the event 500
+====================================
+
+Beginning of the event 1000
+====================================
+
+Beginning of the event 1500
+-  
+
+
+* * Most Node names can be ran through the Hijing, except MB, GL1, Centrality, Z_vertex (tuth: is filled z_vertex). ** 
+
+         5/31/25
+**------------------------------------------------------------------------------------------------------------------------------***
+
+
+
