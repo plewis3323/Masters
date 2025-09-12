@@ -1,0 +1,5 @@
+=== Pi0 Signal via Full-Range Fit Subtraction ===
+Fit range:           0.07 - 0.27 GeV
+S + B integral:      337.654
+Bkg-only integral:   0.747319
+Signal yield:        336.907 ± 18.3957

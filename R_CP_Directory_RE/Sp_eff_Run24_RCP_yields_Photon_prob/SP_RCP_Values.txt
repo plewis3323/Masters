@@ -1,0 +1,11 @@
+t [0] .L RCP_sp_Eff_corr.C 
+root [1] Run1()
+
+Corrected Rcp values:
+  pT = 3.65 GeV/c --> Rcp = 0.0900781 ± 0.00364614
+  pT = 4.5 GeV/c --> Rcp = 0.291174 ± 0.0088475
+  pT = 5.5 GeV/c --> Rcp = 0.214331 ± 0.00723026
+  pT = 6.5 GeV/c --> Rcp = 0.162319 ± 0.0086945
+  pT = 7.5 GeV/c --> Rcp = 0.166148 ± 0.0141027
+root [2] 
+
