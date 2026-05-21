@@ -1,0 +1,12 @@
+Fit Model Used: exp+pol3
+Fit Range: [0.050000, 0.450000]
+Number of Fit Parameters: 6
+Chi2 / NDF: 20.093633 / 11
+Fit Probability: 0.044073
+Fit Parameters (with uncertainties):
+par[0] = -21650.207609 ±   547.373806
+par[1] =     7.560757 ±     0.483676
+par[2] =  2314.538414 ±   443.022144
+par[3] = 52829.084316 ±  1909.943089
+par[4] = -166401.447143 ±  6159.863833
+par[5] = 132428.887076 ± 10444.768421

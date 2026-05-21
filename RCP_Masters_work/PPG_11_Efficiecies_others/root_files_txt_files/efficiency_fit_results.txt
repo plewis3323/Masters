@@ -1,0 +1,23 @@
+Best Fit Function: Gaussian-Like
+Chi2/NDF: 0.0034376 / 10
+
+Parameters:
+  [0] = 0.00654952
+  [1] = 7.19113
+  [2] = 1.49885
+
+Efficiencies at specific pT values (with propagated errors):
+  pT = 3.65 GeV/c --> Efficiency = 0.304646 ± 0.00857803
+  pT = 4.5 GeV/c --> Efficiency = 0.383983 ± 0.00801237
+  pT = 5.5 GeV/c --> Efficiency = 0.363144 ± 0.00762325
+  pT = 6.5 GeV/c --> Efficiency = 0.269687 ± 0.00785996
+  pT = 7.5 GeV/c --> Efficiency = 0.16859 ± 0.00713614
+
+Average Efficiencies in pT Bins (with propagated errors):
+  pT bin [3.3, 4] --> Avg. Efficiency = 0.30269 ± 0.00846075
+  pT bin [4, 5] --> Avg. Efficiency = 0.378521 ± 0.00786078
+  pT bin [5, 6] --> Avg. Efficiency = 0.360103 ± 0.00751301
+  pT bin [6, 7] --> Avg. Efficiency = 0.269484 ± 0.00775689
+  pT bin [7, 8] --> Avg. Efficiency = 0.169725 ± 0.00707566
+
+
